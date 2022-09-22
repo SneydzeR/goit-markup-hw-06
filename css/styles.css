@@ -253,6 +253,7 @@ body {
   }
   .modal-form-check:checked + .checkbox-icon {
     border: none;
+    background-color: var(--accent-color);
   }
   .modal-form-check:checked + .checkbox-icon .checkbox-icon-use {
     display: block;
@@ -312,7 +313,7 @@ body {
     position: relative;
   }
 
-  textarea {
+.textarea {
     height: 120px ;
     width: 448px ;
     resize: none;
@@ -322,10 +323,14 @@ body {
   
 .footer-form {
     margin-left: auto;
+    display: flex;
+}
+.gopa {
+    display: flex;
 }
 
 .sform {
-    display: flex;
+    display: block;
     align-items: center;
     padding: 0;
 }
@@ -375,6 +380,7 @@ body {
   position: absolute;
   width: 24px;
   height: 24px;
+  margin-left: 10px;
 }
 
 /*Утиліт*/
@@ -1143,6 +1149,7 @@ transition: box-shadow var(--transition);
     color: var(--primary-white-color);
     margin: 0px;
     padding: 0px;
+    margin-bottom: 20px;
   }
   .social-media-foot {
     display: flex;
